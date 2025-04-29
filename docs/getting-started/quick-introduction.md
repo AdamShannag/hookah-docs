@@ -26,7 +26,7 @@ they match defined rules**.
   Compose outgoing requests using data from the incoming payload.
 
 - **Visual UI Config**  
-  Use [**hookah-ui**](https://github.com/your-org/hookah-ui) to build your config visually and export `config.json`,
+  Use [**hookah-ui**](https://hookah-ui.vercel.app) to build your config visually and export `config.json`,
   `templates`, and editable flows.
 
 ## Setting Up a Discord Webhook
