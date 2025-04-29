@@ -48,7 +48,7 @@ Before testing Hookah, you’ll need a Discord webhook to forward events to.
 Instead of writing JSON manually, you can use [**hookah-ui**](https://hookah-ui.vercel.app) to visually build your
 configuration.
 
-### Steps:
+### Steps
 
 1. Visit [hookah-ui](https://hookah-ui.vercel.app)
 2. Add receivers, events, conditions, templates, and webhook targets.
@@ -57,7 +57,7 @@ configuration.
     - `templates/` folder
     - `config.flow` (can be imported later for editing)
 
-### Visual Example:
+### Hookah-UI Screenshots
 
 **Flow Editor**
 ![flow.png](./images/flow.png)
