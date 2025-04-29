@@ -132,7 +132,6 @@ This template formats the GitLab merge request event into a rich embed for Disco
 Spin up Hookah quickly using Docker:
 
 ```yaml
-version: "3.8"
 services:
   hookah:
     image: adamiscool/hookah:v0.0.1
