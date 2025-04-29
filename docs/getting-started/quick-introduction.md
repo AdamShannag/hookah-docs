@@ -135,7 +135,7 @@ Spin up Hookah quickly using Docker:
 version: "3.8"
 services:
   hookah:
-    image: adamiscool/hookah:latest
+    image: adamiscool/hookah:v0.0.1
     ports:
       - "3000:3000"
     environment:
