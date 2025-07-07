@@ -109,7 +109,7 @@ This template formats the GitLab merge request event into a rich embed for Disco
 {
   "username": "{{title .user.username}}",
   "avatar_url": "{{.user.avatar_url}}",
-  "content": "today is {{format now \"2006-01-02\"}}",
+  "content": "today is {{format now "2006-01-02"}}",
   "embeds": [
     {
       "author": {
@@ -120,7 +120,7 @@ This template formats the GitLab merge request event into a rich embed for Disco
       "description": "{{.user.name}} {{pastTense .object_attributes.action}} a merge request in [{{.project.path_with_namespace}}]({{.project.web_url}})",
       "color": 15258703,
       "footer": {
-        "text": "{{format (parseTime .object_attributes.updated_at \"2006-01-02T15:04:05Z07:00\") \"2006-01-02\"}}"
+        "text": "{{format (parseTime .object_attributes.updated_at "2006-01-02T15:04:05Z07:00") "2006-01-02"}}"
       }
     }
   ]
@@ -134,7 +134,7 @@ Spin up Hookah quickly using Docker:
 ```yaml
 services:
   hookah:
-    image: adamiscool/hookah:v0.0.1
+    image: adamiscool/hookah:v0.1.3
     ports:
       - "3000:3000"
     environment:
